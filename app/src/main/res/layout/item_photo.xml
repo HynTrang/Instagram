@@ -32,7 +32,6 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="username"
                 android:id="@+id/tvuser"
                 android:layout_centerVertical="true"
                 android:layout_toRightOf="@+id/imgAvt"
@@ -68,7 +67,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" likes"
+        android:text="@string/likes"
+        android:layout_marginLeft="5dp"
         android:id="@+id/textView2"
         android:layout_alignTop="@+id/tvlike"
         android:layout_toRightOf="@+id/tvlike"
